@@ -20,7 +20,6 @@ testem.log
 /front/tmp
 /front/node_modules
 /front/bower_components
-/front
 /front/.sass-cache
 /front/connect.lock
 /front/coverage/*
