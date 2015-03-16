@@ -15,3 +15,16 @@
 /libpeerconnection.log
 npm-debug.log
 testem.log
+
+/front/dist
+/front/tmp
+/front
+/front/node_modules
+/front/bower_components
+/front
+/front/.sass-cache
+/front/connect.lock
+/front/coverage/*
+/front/libpeerconnection.log
+/front/npm-debug.log
+/front/testem.log
