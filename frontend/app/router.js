@@ -6,12 +6,14 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+
   // under site namespace
   this.route('site/about', { path: '/about' });
 
 
   // under admin namespace
   this.route('admin/dashboard', { path: '/admin' });
+
 });
 
 export default Router;
