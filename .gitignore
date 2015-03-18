@@ -26,3 +26,14 @@ testem.log
 /front/libpeerconnection.log
 /front/npm-debug.log
 /front/testem.log
+
+/front-end/dist
+/front-end/tmp
+/front-end/node_modules
+/front-end/bower_components
+/front-end/.sass-cache
+/front-end/connect.lock
+/front-end/coverage/*
+/front-end/libpeerconnection.log
+/front-end/npm-debug.log
+/front-end/testem.log
