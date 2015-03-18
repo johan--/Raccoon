@@ -1,0 +1,3 @@
+--ignore-directory=is:dist
+--ignore-directory=is:tmp
+--ignore-file=ext:map
