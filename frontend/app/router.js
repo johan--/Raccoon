@@ -10,6 +10,7 @@ Router.map(function() {
   // under site namespace
   this.route('site/about', { path: '/about' });
   this.route('site/index', { path: '/' });
+  this.route('site/home', { path: '/home' });
 
 
   // under admin namespace
