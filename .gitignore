@@ -48,3 +48,9 @@ testem.log
 /frontend/libpeerconnection.log
 /frontend/npm-debug.log
 /frontend/testem.log
+
+/backend/.bundle
+/backend/db/*.sqlite3
+/backend/db/*.sqlite3-journal
+/backend/log/*
+/backend/tmp
