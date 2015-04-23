@@ -16,41 +16,14 @@
 npm-debug.log
 testem.log
 
-/front/dist
-/front/tmp
-/front/node_modules
-/front/bower_components
-/front/.sass-cache
-/front/connect.lock
-/front/coverage/*
-/front/libpeerconnection.log
-/front/npm-debug.log
-/front/testem.log
+/.bundle
 
-/front-end/dist
-/front-end/tmp
-/front-end/node_modules
-/front-end/bower_components
-/front-end/.sass-cache
-/front-end/connect.lock
-/front-end/coverage/*
-/front-end/libpeerconnection.log
-/front-end/npm-debug.log
-/front-end/testem.log
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
 
-/frontend/dist
-/frontend/tmp
-/frontend/node_modules
-/frontend/bower_components
-/frontend/.sass-cache
-/frontend/connect.lock
-/frontend/coverage/*
-/frontend/libpeerconnection.log
-/frontend/npm-debug.log
-/frontend/testem.log
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
 
-/backend/.bundle
-/backend/db/*.sqlite3
-/backend/db/*.sqlite3-journal
-/backend/log/*
-/backend/tmp
