@@ -1,6 +1,8 @@
+Raccoon
+=======
 
+# Get started
 How to build a project like this from scratch
-===============================
 
 ### Initialize a rails project with a ember based frontend 
 ```
@@ -49,5 +51,11 @@ go to `http://localhost:3000/ember-tests/frontend` to check the test results
 $ cd frontend && npm install --save-dev ember-cli-sass
 ```
 
+
+# Features supported
+
+* EmberCLI
+* Global wise Bootstrap
+* Sass support in both `app/assets/stylesheets/` folder and `frontend/app/styles/` folder
 
 
