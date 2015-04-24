@@ -1,8 +1,21 @@
 Raccoon
 =======
 
+# Features supported
+
+* Assets pipline
+* Support erb based js and css
+* EmberCLI
+* Global wise Bootstrap
+* Sass support in both `app/assets/stylesheets/` folder and `frontend/app/styles/` folder
+* Seperate projects of fronted and adminpanel, minimize first load time
+
 # Get started
 How to build a project like this from scratch
+
+### Assumption
+* installed EmberCLI, if not, go to [http://www.ember-cli.com/](http://www.ember-cli.com/)
+* installed Rails, if not, go to [http://rubyonrails.org/](http://rubyonrails.org/)
 
 ### Initialize a rails project with a ember based frontend 
 ```
@@ -51,14 +64,5 @@ go to `http://localhost:3000/ember-tests/frontend` to check the test results
 $ cd frontend && npm install --save-dev ember-cli-sass
 ```
 
-
-# Features supported
-
-* Assets pipline
-* Support erb based js and css
-* EmberCLI
-* Global wise Bootstrap
-* Sass support in both `app/assets/stylesheets/` folder and `frontend/app/styles/` folder
-* Seperate projects of fronted and adminpanel, minimize first load time
 
 
