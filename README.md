@@ -44,7 +44,7 @@ $ rails s
 add `mount EmberCLI::Engine => "ember-tests" if Rails.env.development?` in `router.rb` file
 go to `http://localhost:3000/ember-tests/frontend` to check the test results
 
-### add sass support in ember *optional
+### Add sass support in ember *optional
 ```
 $ cd frontend && npm install --save-dev ember-cli-sass
 ```
