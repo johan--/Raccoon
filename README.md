@@ -2,27 +2,27 @@
 How to build a project like this from scratch
 ===============================
 
-### initialize a rails project with a ember based frontend 
+### Initialize a rails project with a ember based frontend 
 ```
 $ rails new raccoon & cd raccoon
 $ ember new frontend
 ```
 
-### remove turbolinks in the project
+### Remove turbolinks in the project
 ```
 remove 'turbolinks' in Gemfile 
 remove 'turbolinks' in app/assets/javascripts/application.js
 remove 'turbolinks' in app/views/layouts/application.html.erb
 ```
 
-### connect with ember and rails
+### Connect with ember and rails
 ```
 add 'ember-cli-rails' in Gemfile
 $ bundle install
 $ cd frontend && npm install --save-dev ember-cli-rails-addon@0.0.11
 ```
 
-### get things up and running
+### Get things up and running
 ```
 $ rails g controller ember index
 add root 'ember#index' in router.rb
@@ -40,7 +40,7 @@ get it running
 $ rails s 
 ```
 
-### add ember tests *optional
+### Add ember tests *optional
 add `mount EmberCLI::Engine => "ember-tests" if Rails.env.development?` in `router.rb` file
 go to `http://localhost:3000/ember-tests/frontend` to check the test results
 
