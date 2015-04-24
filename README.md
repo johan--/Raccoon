@@ -59,5 +59,6 @@ $ cd frontend && npm install --save-dev ember-cli-sass
 * EmberCLI
 * Global wise Bootstrap
 * Sass support in both `app/assets/stylesheets/` folder and `frontend/app/styles/` folder
+* Seperate projects of fronted and adminpanel, minimize first load time
 
 
