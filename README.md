@@ -54,6 +54,8 @@ $ cd frontend && npm install --save-dev ember-cli-sass
 
 # Features supported
 
+* Assets pipline
+* Support erb based js and css
 * EmberCLI
 * Global wise Bootstrap
 * Sass support in both `app/assets/stylesheets/` folder and `frontend/app/styles/` folder
